@@ -1,0 +1,15 @@
+{
+  "id": "msg-2026-11-07T16-39-08-173Z-e0eabc02",
+  "from": "kiro",
+  "to": "shared",
+  "type": "session_announce",
+  "timestamp": "2026-11-07T16:39:08.173Z",
+  "requires_response": false,
+  "session_id": "e0eabc02-bcfe-4571-8f12-32debc9bd172",
+  "payload": {
+    "current_task": null,
+    "branch": null,
+    "file_scope": [],
+    "note": null
+  }
+}

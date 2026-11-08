@@ -1,0 +1,190 @@
+{
+  "schema": "autoclaw.contextPack.v1",
+  "markdown_path": ".autoclaw/orchestrator/sprints/next-kiro-c26c6761.context.md",
+  "generated_at": "2026-11-08T13:50:16.379Z",
+  "workspace_root_hash": "5daf7bbe0e4910d2",
+  "scope": {
+    "task": "Next available work for kiro-c26c6761: Auto-dispatched by orchestrator-loop. Agent kiro-c26c6761 is idle.",
+    "agent_id": "kiro",
+    "sprint": 1,
+    "task_ids": [
+      "next-kiro-c26c6761"
+    ]
+  },
+  "mode": "balanced",
+  "query_mode": "balanced",
+  "degraded": true,
+  "notes": [
+    "Code retrieval unavailable (vector backend degraded).",
+    "mode: balanced",
+    "query-mode: balanced"
+  ],
+  "evidence": [
+    {
+      "id": "kg:0",
+      "kind": "kg",
+      "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794072427444-1cdcf887",
+      "score": 0.15,
+      "captured_at": "2026-11-07T17:27:07.468Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    },
+    {
+      "id": "kg:1",
+      "kind": "kg",
+      "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794072427444-1cdcf887",
+      "score": 0.15,
+      "captured_at": "2026-11-07T17:27:07.493Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    },
+    {
+      "id": "kg:2",
+      "kind": "kg",
+      "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794072757477-e54357f3",
+      "score": 0.15,
+      "captured_at": "2026-11-07T17:32:37.507Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    },
+    {
+      "id": "kg:3",
+      "kind": "kg",
+      "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794072757477-e54357f3",
+      "score": 0.15,
+      "captured_at": "2026-11-07T17:32:37.541Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    },
+    {
+      "id": "kg:4",
+      "kind": "kg",
+      "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794145788951-c5b0bf3e",
+      "score": 0.15,
+      "captured_at": "2026-11-08T13:49:48.981Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    },
+    {
+      "id": "kg:5",
+      "kind": "kg",
+      "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794145788951-c5b0bf3e",
+      "score": 0.15,
+      "captured_at": "2026-11-08T13:49:49.094Z",
+      "freshness": "current",
+      "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+    }
+  ],
+  "hashes": [
+    {
+      "evidence_id": "kg:0",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "5c58ce5444df5264dc6caeba91621f070b83c290acf20b6565be7d6109ff1337"
+    },
+    {
+      "evidence_id": "kg:1",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "6580f73855a28f336bc2d28bf9efb1a50868845f608c0fd6feecd36e9e7eb0a0"
+    },
+    {
+      "evidence_id": "kg:2",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "b82b30970a685f38de603b623b75599a4cce9b83fb6c1fb3fcec0569570b29a3"
+    },
+    {
+      "evidence_id": "kg:3",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "633fe8cf62007c2e51ee14f943f5504ac1e8b161148462dfc01d9ef31be2d75a"
+    },
+    {
+      "evidence_id": "kg:4",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "d9ce1b94ecde4e6a953a897d7c08207e26d2ad16447e982ae94def50c15012d6"
+    },
+    {
+      "evidence_id": "kg:5",
+      "content_hash": "4014f2999cd18e6ad2b67b3ae117c6f47247cea5861ed4df7cb40583a0614d32",
+      "source_hash": "7edf4b9a47e4ca78b36c500257878c187fb3ec709961a6a78fcb93bd6a5db161"
+    }
+  ],
+  "summary": {
+    "task": "Next available work for kiro-c26c6761: Auto-dispatched by orchestrator-loop. Agent kiro-c26c6761 is idle.",
+    "agent_id": "kiro",
+    "sprint": 1,
+    "task_ids": [
+      "next-kiro-c26c6761"
+    ],
+    "used_code": false,
+    "code_hits": 0,
+    "learning_hits": 0,
+    "kg_hits": 6,
+    "degraded": true,
+    "notes": [
+      "Code retrieval unavailable (vector backend degraded).",
+      "mode: balanced",
+      "query-mode: balanced"
+    ],
+    "generated_at": "2026-11-08T13:50:16.379Z",
+    "mode": "balanced",
+    "spine_block_ids": [
+      "ctx:/home/loner/desktop/multisig:project:root"
+    ],
+    "query_mode": "balanced",
+    "evidence": [
+      {
+        "id": "kg:0",
+        "kind": "kg",
+        "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794072427444-1cdcf887",
+        "score": 0.15,
+        "captured_at": "2026-11-07T17:27:07.468Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      },
+      {
+        "id": "kg:1",
+        "kind": "kg",
+        "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794072427444-1cdcf887",
+        "score": 0.15,
+        "captured_at": "2026-11-07T17:27:07.493Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      },
+      {
+        "id": "kg:2",
+        "kind": "kg",
+        "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794072757477-e54357f3",
+        "score": 0.15,
+        "captured_at": "2026-11-07T17:32:37.507Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      },
+      {
+        "id": "kg:3",
+        "kind": "kg",
+        "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794072757477-e54357f3",
+        "score": 0.15,
+        "captured_at": "2026-11-07T17:32:37.541Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      },
+      {
+        "id": "kg:4",
+        "kind": "kg",
+        "source_ref": "kg:dispatch:/home/loner/Desktop/multisig:next-kiro-1794145788951-c5b0bf3e",
+        "score": 0.15,
+        "captured_at": "2026-11-08T13:49:48.981Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      },
+      {
+        "id": "kg:5",
+        "kind": "kg",
+        "source_ref": "kg:evt:/home/loner/Desktop/multisig:next-kiro:progress:next-kiro-1794145788951-c5b0bf3e",
+        "score": 0.15,
+        "captured_at": "2026-11-08T13:49:49.094Z",
+        "freshness": "current",
+        "included_reason": "durable KG fact ranked by hybrid fusion (balanced)"
+      }
+    ]
+  }
+}

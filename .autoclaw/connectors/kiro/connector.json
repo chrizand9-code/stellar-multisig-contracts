@@ -1,0 +1,12 @@
+{
+  "acp": "acp/1",
+  "id": "kiro",
+  "kind": "runner",
+  "displayName": "Kiro (AWS)",
+  "vendor": "amazon",
+  "version": "2.0",
+  "abiRange": ">=2.0 <3.0",
+  "provides": ["runner", "presence"],
+  "homepage": "https://kiro.dev",
+  "permissions": { "network": "declared", "writesWorkspace": true, "spawnsProcess": true }
+}

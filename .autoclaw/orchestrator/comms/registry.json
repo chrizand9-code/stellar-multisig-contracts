@@ -1,0 +1,32 @@
+{
+  "agents": [
+    {
+      "id": "kiro",
+      "name": "Kiro",
+      "extension_id": "amazon.kiro",
+      "detected": true,
+      "rules_path": ".kiro/steering/cross-agent.md",
+      "inbox_path": ".autoclaw/orchestrator/comms/inboxes/kiro/",
+      "hooks_supported": true,
+      "last_heartbeat": null,
+      "status": "detected",
+      "loop_mechanism": "cli-headless",
+      "keepalive_template": "templates/keepalive/kiro.md"
+    },
+    {
+      "id": "kilocode",
+      "name": "Kilo Code",
+      "extension_id": "kilocode.kilo-code",
+      "detected": true,
+      "rules_path": ".clinerules/cross-agent-protocol.md",
+      "inbox_path": ".autoclaw/orchestrator/comms/inboxes/kilocode/",
+      "hooks_supported": false,
+      "last_heartbeat": null,
+      "status": "detected",
+      "loop_mechanism": "plain-message",
+      "keepalive_template": "templates/keepalive/kilocode.md"
+    }
+  ],
+  "ide": "Kiro",
+  "provisioned_at": "2026-11-07T16:39:08.047Z"
+}
